@@ -1,10 +1,10 @@
-a=int(input("Enter the number")
+a=input()
 if(a<0):
-      print("NEGATIVE")
+      print("Negative")
 elif(1<=a<=1000000):
-      print("POSITIVE")
+      print("Positive")
 elif(a==0):
-      print("ZERO")
+      print("Zero")
 else:
       print("Invalid data")
       
