@@ -1,6 +1,5 @@
 a=raw_input()
-b= reversed(a)
-if list(a) == list(b):
-   print("It is palindrome")
+if a==a[::-1]:
+	print a[::-1] 
 else:
-   print("It is not palindrome")
+    print a
