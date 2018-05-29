@@ -1,2 +1,2 @@
-a=str(raw_input())
+a=raw_input()
 print(a[::-1]
