@@ -1,0 +1,22 @@
+count=int(raw_input())
+a=[]
+for x in range(count):
+	t=str(raw_input())
+	a.append(t)
+mi=len(a[0])
+for x in a:
+	if (len(x)<mi):
+		mi=len(x)
+ans=''		
+for x in range(mi):
+	for y in range(count):
+		flag=0
+		if a[0][x]==a[y][x]:
+			flag=1
+		else:
+			flag=0
+			break
+	if flag==1:
+		ans=ans+a[0][x]
+print(ans)
+		
