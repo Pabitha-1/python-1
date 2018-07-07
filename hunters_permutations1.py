@@ -3,5 +3,5 @@ def allPermutations(a):
      permList = permutations(a)
      for perm in list(permList):
          print (''.join(perm))
-a=raw_input().split()
+a=raw_input()
 allPermutations(a)
